@@ -1,4 +1,4 @@
-# pom-selenium-assignment
+# pom-selenium-selenide-assignment
 
 Prerequisites: 
 	i)  Chrome Browser must be installed - Version 86.0.4240.198 (Official Build) (64-bit)
