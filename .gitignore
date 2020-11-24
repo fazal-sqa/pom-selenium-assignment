@@ -1,8 +1,9 @@
+_classpath.xml
 debug.log
 build/
 *.class
 .project
-_project
+_project.xml
 .classpath
 target/
 test-output/
