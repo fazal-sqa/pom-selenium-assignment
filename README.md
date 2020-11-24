@@ -42,7 +42,7 @@ Software & Tools installation:
 	b) Expand the "test-output" folder and find the file "Assignment.html" 
 	c) Right click on the "Assignment.html" and click on the "Properties".
 	d) There is a field, "Location" and there is a path mentioned in front of it.
-	e) Copy the path and paste it in the browser and click enter and Report of Test Execution will          be displayed.
+	e) Copy the path and paste it in the browser and click enter and Report of Test Execution will be displayed.
 
 	Hint: Path could be like this; 
 	C:\Users\Fazal-Rehman\eclipse-workspace\com.selenium.assignment\test-output\Assignment.html
