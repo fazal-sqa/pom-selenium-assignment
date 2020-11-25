@@ -48,7 +48,3 @@ Software & Tools installation:
 
 	Hint: Path could be like this; 
 	C:\Users\Fazal-Rehman\eclipse-workspace\com.selenium.assignment\test-output\Assignment.html
-
-
-Thank you!
-Regards,
