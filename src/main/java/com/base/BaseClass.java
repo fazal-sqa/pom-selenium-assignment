@@ -22,7 +22,7 @@ public class BaseClass {
 		// Chrome Browser -- WebDriver Configurations
 		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "//Drivers//chromedriver_win32//chromedriver.exe");
+			System.getProperty("user.dir") + "//Drivers//chromedriver_win32//chromedriver.exe");
 		}
 
 		open(prop.getProperty("url"));
