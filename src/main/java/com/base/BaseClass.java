@@ -21,7 +21,6 @@ public class BaseClass {
 		// Chrome Browser -- WebDriver Configurations
 
 		if (browserName.equalsIgnoreCase("chrome")) {
-			String chromeDriverPath = prop.getProperty("chrome_driver_path");
 	        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "//Drivers//chromedriver_win32//chromedriver.exe");
 		}
 
