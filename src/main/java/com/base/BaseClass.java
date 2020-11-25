@@ -13,16 +13,16 @@ public class BaseClass {
 
 	public static void initialization(String browserName) throws InterruptedException, IOException {
 
-		//Reading Configuration file
-		
-		Properties prop = new Properties();		
-		FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/config.properties");
+		// Reading Configuration file
+
+		Properties prop = new Properties();
+		FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/config.properties");
 		prop.load(ip);
 
 		// Chrome Browser -- WebDriver Configurations
-
 		if (browserName.equalsIgnoreCase("chrome")) {
-	        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "//Drivers//chromedriver_win32//chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",
+					System.getProperty("user.dir") + "//Drivers//chromedriver_win32//chromedriver.exe");
 		}
 
 		open(prop.getProperty("url"));
