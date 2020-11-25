@@ -5,10 +5,7 @@
 	<listeners>
 		<listener
 				class-name="com.ExtentReportListner.ExtentReporterNG" />
-
 	</listeners>
-
-
 	<test name="Test">
 		<parameter name = "browser" value = "chrome"/>
 
