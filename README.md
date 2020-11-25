@@ -3,6 +3,8 @@
 Prerequisites: 
 	i)  Chrome Browser must be installed - Version 86.0.4240.198 (Official Build) (64-bit)
 	ii) Internet connectivity
+	iii)Java Environment variable - jdk-15.0.1
+	iv) Maven Environment variable - apache-maven-3.6.3-bin
 	
 Software & Tools installation: 
 
