@@ -21,16 +21,14 @@ public class TestHomePage extends BaseClass {
 	HomePage ObjHomePage;
 	Chapter1Page ObjChapter1;
 
-	@Parameters("browser")
 	@BeforeMethod
-	public void setUp(String browser) throws InterruptedException, Exception {
+	public void setUp() throws IOException, Exception {
 
+		//Reading config properties file
 		Properties prop = new Properties();
-		FileInputStream ip = new FileInputStream(
-				"D:\\selenium_assignment_pom-master\\selenium_assignment_pom-master\\src\\main\\java\\config.properties");
+		FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/config.properties");
 		prop.load(ip);
-		String browserName = prop.getProperty("browser");
-		initialization(browserName);
+		initialization(prop.getProperty("browser"));
 		ObjHomePage = new HomePage();
 		ObjChapter1 = new Chapter1Page();
 	}
