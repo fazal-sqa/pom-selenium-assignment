@@ -14,7 +14,6 @@ public class BaseClass {
 	public static void initialization(String browserName) throws InterruptedException, IOException {
 
 		// Reading Configuration file
-
 		Properties prop = new Properties();
 		FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/config.properties");
 		prop.load(ip);
